@@ -2,10 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: beige; /* Set the background color to beige */
 }
 
 header {
-    background-color: #333;
+    background-color: #ef720b;
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -36,19 +37,20 @@ section {
     padding: 1em;
 }
 
-.center-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%; /* Adjust as needed */
-}
-
 footer {
-    background-color: #333;
+    background-color: #ef720b;
     color: #fff;
     text-align: center;
     padding: 1em 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Center the image */
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Adjust as needed */
 }
